@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Blog</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="./eduford_img/logo.png" alt="logo" /></a>
+        <dvi class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </dvi>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificates and Programs for 2021</h1>
+    </section>
+
+    <!-- Blog page content -->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="./eduford_img/certificate.jpg" alt="" />
+          <h2>Our Certificates and Programs for 2021</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut
+            at ipsam voluptate? Nemo nulla harum esse reiciendis dolorum eaque
+            quidem, provident libero quo sunt distinctio soluta facere nostrum
+            rem fugit labore! Laborum reprehenderit nihil eius, iste nisi et at
+            minus laudantium. In numquam similique eveniet sequi eos ullam
+            cupiditate!Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Asperiores exercitationem laborum quod modi. Temporibus quo
+            perferendis atque quisquam ab debitis placeat esse voluptatem sint
+            natus.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut
+            at ipsam voluptate? Nemo nulla harum esse reiciendis dolorum eaque
+            quidem, provident libero quo sunt distinctio soluta facere nostrum
+            rem fugit labore! Laborum reprehenderit nihil eius, iste nisi et at
+            minus laudantium. In numquam similique eveniet sequi eos ullam
+            cupiditate!Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Asperiores exercitationem laborum quod modi. Temporibus quo
+            perferendis atque quisquam ab debitis placeat esse voluptatem sint
+            natus.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut
+            at ipsam voluptate? Nemo nulla harum esse reiciendis dolorum eaque
+            quidem, provident libero quo sunt distinctio soluta facere nostrum
+            rem fugit labore! Laborum reprehenderit nihil eius, iste nisi et at
+            minus laudantium. In numquam similique eveniet sequi eos ullam
+            cupiditate!Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Asperiores exercitationem laborum quod modi. Temporibus quo
+            perferendis atque quisquam ab debitis placeat esse voluptatem sint
+            natus.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut
+            at ipsam voluptate? Nemo nulla harum esse reiciendis dolorum eaque
+            quidem, provident libero quo sunt distinctio soluta facere nostrum
+            rem fugit labore! Laborum reprehenderit nihil eius, iste nisi et at
+            minus laudantium. In numquam similique eveniet sequi eos ullam
+            cupiditate!Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Asperiores exercitationem laborum quod modi. Temporibus quo
+            perferendis atque quisquam ab debitis placeat esse voluptatem sint
+            natus.
+          </p>
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form action="" class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea placeholder="Comment" rows="5"></textarea>
+              <button class="hero-btn red-btn" type="submit">
+                Post comment
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analyatics</span>
+            <span>21</span>
+          </div>
+
+          <div>
+            <span>Data Science</span>
+            <span>27</span>
+          </div>
+
+          <div>
+            <span>Machine Learning</span>
+            <span>35</span>
+          </div>
+
+          <div>
+            <span>Computer Scinece</span>
+            <span>12</span>
+          </div>
+
+          <div>
+            <span>AutoCad</span>
+            <span>48</span>
+          </div>
+
+          <div>
+            <span>Journalism</span>
+            <span>09</span>
+          </div>
+
+          <div>
+            <span>Commerce</span>
+            <span>35</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam accusamus
+        optio excepturi <br />libero est soluta natus eius aliquam debitis at.
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fas fa-heart"></i> by WebDevinc</p>
+    </section>
+    <!-- javascrips part -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
