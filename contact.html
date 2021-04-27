@@ -75,29 +75,29 @@
           </div>
         </div>
         <div class="contact-col">
-          <form action="">
+          <form action="formhandler.php" method="POST">
             <input
               type="text"
-              name=""
+              name="name"
               id=""
               placeholder="Enter your name"
               required
             />
             <input
               type="email"
-              name=""
+              name="email"
               id=""
               placeholder="Enter your email"
               required
             />
             <input
               type="text"
-              name=""
+              name="subject"
               id=""
               placeholder="Enter your subject"
               required
             />
-            <textarea rows="8" placeholder="Message" required></textarea>
+            <textarea name="message" rows="8" placeholder="Message" required></textarea>
             <button type="submit" class="hero-btn red-btn">Send Message</button>
           </form>
         </div>
